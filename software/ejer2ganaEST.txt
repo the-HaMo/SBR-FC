@@ -1,0 +1,35 @@
+Base de Conocimiento utilizada: ".\BC-2.txt" y Base de Hechos utilizada: ".\BH-2.txt"
+El objetivo a encontrar es: ganaEST
+
+--- COMIENZA EL ALGORITMO SBR-FC ---
+
+Comprobando la meta del programa: ganaEST
+ CC = {R1, R4, R6}
+Regla seleccionada: R1
+Nuevas metas = {arbMod}
+Seleccionada la nueva meta: arbMod
+Meta alcanzada: arbMod. con FC: 1
+R1 (regla activada)
+	Caso 1: (arbMod), FC: 1
+	Caso 3: (arbMod), FC: 0.4
+Regla seleccionada: R4
+Nuevas metas = {publicoEqui}
+Seleccionada la nueva meta: publicoEqui
+Meta alcanzada: publicoEqui. con FC: 0.35
+R4 (regla activada)
+	Caso 1: (publicoEqui), FC: 0.35
+	Caso 3: (publicoEqui), FC: -0.1925
+Regla seleccionada: R6
+Nuevas metas = {les2pivEST}
+Seleccionada la nueva meta: les2pivEST
+Meta alcanzada: les2pivEST. con FC: 1
+R6 (regla activada)
+	Caso 1: (les2pivEST), FC: 1
+	Caso 3: (les2pivEST), FC: -0.6
+	Caso 2: ganaEST, FC: -0.461667
+Se ha alcanzado la meta ganaEST con FC: -0.461667
+--- !META ALCANZADA! ---
+Se alcanzo la meta ganaEST con un FC= -0.461667
+Resultado: Proceso existoso
+
+--- FIN DEL ALGORITMO SBR-FC ---

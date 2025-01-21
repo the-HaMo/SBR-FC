@@ -1,0 +1,37 @@
+Base de Conocimiento utilizada: ".\BC-2.txt" y Base de Hechos utilizada: ".\BH-2.txt"
+El objetivo a encontrar es: ganaRM
+
+--- COMIENZA EL ALGORITMO SBR-FC ---
+
+Comprobando la meta del programa: ganaRM
+ CC = {R2, R3, R5}
+Regla seleccionada: R2
+Nuevas metas = {arbMod}
+Seleccionada la nueva meta: arbMod
+Meta alcanzada: arbMod. con FC: 1
+R2 (regla activada)
+	Caso 1: (arbMod), FC: 1
+	Caso 3: (arbMod), FC: 0.75
+Regla seleccionada: R3
+Nuevas metas = {publicoMayEST}
+Seleccionada la nueva meta: publicoMayEST
+Meta alcanzada: publicoMayEST. con FC: 0.65
+R3 (regla activada)
+	Caso 1: (publicoMayEST), FC: 0.65
+	Caso 3: (publicoMayEST), FC: -0.26
+Regla seleccionada: R5
+Nuevas metas = {les2pivRM, visitanteRM}
+Seleccionada la nueva meta: les2pivRM
+Meta alcanzada: les2pivRM. con FC: 1
+Seleccionada la nueva meta: visitanteRM
+Meta alcanzada: visitanteRM. con FC: 1
+R5 (regla activada)
+	Caso 1: (les2pivRM y visitanteRM), FC: 1
+	Caso 3: (les2pivRM y visitanteRM), FC: -0.1
+	Caso 2: ganaRM, FC: 0.624625
+Se ha alcanzado la meta ganaRM con FC: 0.624625
+--- !META ALCANZADA! ---
+Se alcanzo la meta ganaRM con un FC= 0.624625
+Resultado: Proceso existoso
+
+--- FIN DEL ALGORITMO SBR-FC ---

@@ -1,0 +1,73 @@
+Base de Conocimiento utilizada: ".\BC-3.txt" y Base de Hechos utilizada: ".\BH-3.txt"
+El objetivo a encontrar es: cAcc
+
+--- COMIENZA EL ALGORITMO SBR-FC ---
+
+Comprobando la meta del programa: cAcc
+ CC = {R5, R6, R7}
+Regla seleccionada: R5
+Nuevas metas = {condE, noVs}
+Seleccionada la nueva meta: condE
+Comprobando la meta del programa: condE
+ CC = {R1, R2}
+Regla seleccionada: R1
+Nuevas metas = {c2y3}
+Seleccionada la nueva meta: c2y3
+Meta alcanzada: c2y3. con FC: 1
+R1 (regla activada)
+	Caso 1: (c2y3), FC: 1
+	Caso 3: (c2y3), FC: 0.5
+Regla seleccionada: R2
+Nuevas metas = {c3+}
+Seleccionada la nueva meta: c3+
+Meta alcanzada: c3+. con FC: 1
+R2 (regla activada)
+	Caso 1: (c3+), FC: 1
+	Caso 3: (c3+), FC: 0.9
+	Caso 2: condE, FC: 0.95
+Se ha alcanzado la meta condE con FC: 0.95
+Seleccionada la nueva meta: noVs
+Meta alcanzada: noVs. con FC: -1
+R5 (regla activada)
+	Caso 1: (condE y noVs), FC: -1
+	Caso 3: (condE y noVs), FC: -0
+Regla seleccionada: R6
+Nuevas metas = {condC}
+Seleccionada la nueva meta: condC
+Comprobando la meta del programa: condC
+ CC = {R3, R4}
+Regla seleccionada: R3
+Nuevas metas = {co2y3}
+Seleccionada la nueva meta: co2y3
+Meta alcanzada: co2y3. con FC: 1
+R3 (regla activada)
+	Caso 1: (co2y3), FC: 1
+	Caso 3: (co2y3), FC: 0.5
+Regla seleccionada: R4
+Nuevas metas = {co3+}
+Seleccionada la nueva meta: co3+
+Meta alcanzada: co3+. con FC: -1
+R4 (regla activada)
+	Caso 1: (co3+), FC: -1
+	Caso 3: (co3+), FC: 0
+	Caso 2: condC, FC: 0.5
+Se ha alcanzado la meta condC con FC: 0.5
+R6 (regla activada)
+	Caso 1: (condC), FC: 0.5
+	Caso 3: (condC), FC: 0.25
+Regla seleccionada: R7
+Nuevas metas = {condJ, bA}
+Seleccionada la nueva meta: condJ
+Meta alcanzada: condJ. con FC: 0.4
+Seleccionada la nueva meta: bA
+Meta alcanzada: bA. con FC: 0
+R7 (regla activada)
+	Caso 1: (condJ o bA), FC: 0.4
+	Caso 3: (condJ o bA), FC: 0.28
+	Caso 2: cAcc, FC: 0.46
+Se ha alcanzado la meta cAcc con FC: 0.46
+--- !META ALCANZADA! ---
+Se alcanzo la meta cAcc con un FC= 0.46
+Resultado: Proceso existoso
+
+--- FIN DEL ALGORITMO SBR-FC ---

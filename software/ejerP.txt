@@ -1,0 +1,62 @@
+Base de Conocimiento utilizada: ".\BC-P.txt" y Base de Hechos utilizada: ".\BH-P.txt"
+El objetivo a encontrar es: h1
+
+--- COMIENZA EL ALGORITMO SBR-FC ---
+
+Comprobando la meta del programa: h1
+ CC = {R1}
+Regla seleccionada: R1
+Nuevas metas = {h2, h3}
+Seleccionada la nueva meta: h2
+Comprobando la meta del programa: h2
+ CC = {R2, R5}
+Regla seleccionada: R2
+Nuevas metas = {h4, h8}
+Seleccionada la nueva meta: h4
+Meta alcanzada: h4. con FC: -0.4
+Seleccionada la nueva meta: h8
+Meta alcanzada: h8. con FC: 0.6
+R2 (regla activada)
+	Caso 1: (h4 y h8), FC: -0.4
+	Caso 3: (h4 y h8), FC: 0
+Regla seleccionada: R5
+Nuevas metas = {h5, h8}
+Seleccionada la nueva meta: h5
+Meta alcanzada: h5. con FC: -0.3
+Seleccionada la nueva meta: h8
+Meta alcanzada: h8. con FC: 0.6
+R5 (regla activada)
+	Caso 1: (h5 o h8), FC: 0.6
+	Caso 3: (h5 o h8), FC: 0.45
+	Caso 2: h2, FC: 0.45
+Se ha alcanzado la meta h2 con FC: 0.45
+Seleccionada la nueva meta: h3
+Comprobando la meta del programa: h3
+ CC = {R3, R4}
+Regla seleccionada: R3
+Nuevas metas = {h5, h6}
+Seleccionada la nueva meta: h5
+Meta alcanzada: h5. con FC: -0.3
+Seleccionada la nueva meta: h6
+Meta alcanzada: h6. con FC: 0.45
+R3 (regla activada)
+	Caso 1: (h5 y h6), FC: -0.3
+	Caso 3: (h5 y h6), FC: 0
+Regla seleccionada: R4
+Nuevas metas = {h7}
+Seleccionada la nueva meta: h7
+Meta alcanzada: h7. con FC: -0.15
+R4 (regla activada)
+	Caso 1: (h7), FC: -0.15
+	Caso 3: (h7), FC: -0
+	Caso 2: h3, FC: 0
+Se ha alcanzado la meta h3 con FC: 0
+R1 (regla activada)
+	Caso 1: (h2 o h3), FC: 0.45
+	Caso 3: (h2 o h3), FC: 0.1575
+Se ha alcanzado la meta h1con FC: 0.1575
+--- !META ALCANZADA! ---
+Se alcanzo la meta h1 con un FC= 0.1575
+Resultado: Proceso existoso
+
+--- FIN DEL ALGORITMO SBR-FC ---

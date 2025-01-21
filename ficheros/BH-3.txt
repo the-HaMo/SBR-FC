@@ -1,0 +1,10 @@
+7
+c3+, FC=1.0
+co2y3, FC=1.0
+condJ, FC=0.4
+noVs, FC=-1.0
+co3+, FC=-1.0
+bA, FC=0.0
+c2y3, FC=1.0
+Objetivo
+cAcc

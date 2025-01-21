@@ -1,0 +1,8 @@
+7
+R1: Si c2y3 Entonces condE, FC=0.5 
+R2: Si c3+ Entonces condE, FC=0.9 
+R3: Si co2y3 Entonces condC, FC=0.5 
+R4: Si co3+ Entonces condC, FC=1.0 
+R5: Si condE y noVs Entonces cAcc, FC = -0.5 
+R6: Si condC Entonces cAcc, FC = 0.5 
+R7: Si condJ o bA Entonces cAcc, FC= 0.7 
